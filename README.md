@@ -1,5 +1,20 @@
 # Euler-Rust
-My [Project Euler](https://projecteuler.net/) track in Rust.
+My [Project Euler](https://projecteuler.net/) track in Rust. Every solution is commented, and some problems feature multiple solutions.
+
+## Compiling and Running
+This project uses `Cargo`. With `rust` installed on your machine, you can execute my code with:
+```
+cargo run
+```
+The main program then asks for a Problem number to run, which you can enter in the command line:
+```
+$ cargo run
+    Compiling ...
+     Finished ...
+      Running ...
+Problem number:
+1
+```
 
 ## Problems solved
 - [Problem 1:](src/problem1.rs) Multiples of 3 or 5
