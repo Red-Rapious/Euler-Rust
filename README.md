@@ -11,6 +11,7 @@ My [Project Euler](https://projecteuler.net/) track in Rust.
 - [Problem 7:](src/problem7.rs) 10001st Prime 
 - [Problem 8:](src/problem8.rs) Largest Product in a Series
 - [Problem 9:](src/problem9.rs) Special Pythagorean Triplet
+- [Problem 10:](src/problem10.rs) Summation of Primes
 
 
 ## License
