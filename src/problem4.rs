@@ -26,7 +26,7 @@ pub fn problem4() -> i32 {
     // A better, more complex, approach might be to loop by through i and j such as
     // the (i*j) sequence is always decreasing, and starts at 999*999
     for i in 100..1000 {
-        for j in 100..1000 {
+        for j in i..1000 {
             if i*j > max && is_palindrom(i*j) {
                 max = i*j;
             }
