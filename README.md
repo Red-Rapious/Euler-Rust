@@ -7,6 +7,7 @@ My [Project Euler](https://projecteuler.net/) track in Rust.
 - [Problem 3:](src/problem3.rs) Largest Prime Factor
 - [Problem 4:](src/problem4.rs) Largest Palindrome Product
 - [Problem 5:](src/problem5.rs) Smallest Multiple
+- [Problem 6:](src/problem6.rs) Sum Square Difference
 
 
 ## License
