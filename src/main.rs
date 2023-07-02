@@ -5,8 +5,11 @@ use crate::problem1::problem1_v2;
 
 use crate::problem2::problem2;
 
+use crate::problem3::problem3;
+
 pub mod problem1;
 pub mod problem2;
+pub mod problem3;
 
 fn main() {
     let mut problem_number = String::new();
@@ -28,7 +31,11 @@ fn main() {
     }
     else if problem_number == 2 {
         let value = problem2();
-        println!("Problem 1 solution: {value}");
+        println!("Problem 2 solution: {value}");
+    }
+    else if problem_number == 3 {
+        let value = problem3(600_851_475_143);
+        println!("Problem 3 solution: {value}");
     }
     else {
         println!("Incorrect problem number. End of program.");
