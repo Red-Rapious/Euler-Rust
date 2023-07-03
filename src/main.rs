@@ -15,6 +15,7 @@ use crate::problem8::problem8;
 use crate::problem9::problem9;
 use crate::problem10::problem10;
 use crate::problem11::problem11;
+use crate::problem12::problem12;
 
 pub mod problem1;
 pub mod problem2;
@@ -27,6 +28,7 @@ pub mod problem8;
 pub mod problem9;
 pub mod problem10;
 pub mod problem11;
+pub mod problem12;
 
 fn main() {
     let mut problem_number = String::new();
@@ -89,6 +91,10 @@ fn main() {
     else if problem_number == 11 {
         let value = problem11();
         println!("Problem 11 solution: {value}");
+    }
+    else if problem_number == 12 {
+        let value = problem12();
+        println!("Problem 12 solution: {value}");
     }
     else {
         println!("Incorrect problem number. End of program.");

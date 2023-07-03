@@ -28,6 +28,7 @@ Problem number:
 - [Problem 9:](src/problem9.rs) Special Pythagorean Triplet
 - [Problem 10:](src/problem10.rs) Summation of Primes
 - [Problem 11:](src/problem11.rs) Largest Product in a Grid
+- [Problem 12:](src/problem12.rs) Highly Divisible Triangular Number
 
 
 ## License
