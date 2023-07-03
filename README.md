@@ -27,6 +27,7 @@ Problem number:
 - [Problem 8:](src/problem8.rs) Largest Product in a Series
 - [Problem 9:](src/problem9.rs) Special Pythagorean Triplet
 - [Problem 10:](src/problem10.rs) Summation of Primes
+- [Problem 11:](src/problem11.rs) Largest Product in a Grid
 
 
 ## License
