@@ -29,6 +29,7 @@ Problem number:
 - [Problem 10:](src/problem10.rs) Summation of Primes
 - [Problem 11:](src/problem11.rs) Largest Product in a Grid
 - [Problem 12:](src/problem12.rs) Highly Divisible Triangular Number
+- [Problem 13:](src/problem13.rs) Large Sum
 
 
 ## License
