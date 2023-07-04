@@ -62,61 +62,45 @@ fn main() {
     let problem_number: i32 = problem_number.trim().parse().expect("Please type a number!");
 
     if problem_number == 1 {
-        let value = problem1();
-        let value2 = problem1_v2();
-        println!("Problem 1 solution: {value} (v1), {value2} (v2)");
+        println!("Problem 1 solution: {} (v1), {} (v2)", problem1(), problem1_v2());
     }
     else if problem_number == 2 {
-        let value = problem2();
-        println!("Problem 2 solution: {value}");
+        println!("Problem 2 solution: {}", problem2());
     }
     else if problem_number == 3 {
-        let value = problem3(600_851_475_143);
-        println!("Problem 3 solution: {value}");
+        println!("Problem 3 solution: {}", problem3(600_851_475_143));
     }
     else if problem_number == 4 {
-        let value = problem4();
-        println!("Problem 4 solution: {value}");
+        println!("Problem 4 solution: {}", problem4());
     }
     else if problem_number == 5 {
-        let value2 = problem5_v2();
-        println!("Problem 5 solution: {value2} (v2)");
-        let value1 = problem5();
-        println!("Problem 5 solution: {value1} (v1)");
+        println!("Problem 5 solution: {} (v2)", problem5_v2());
+        println!("Problem 5 solution: {} (v1)", problem5());
     }
     else if problem_number == 6 {
-        let value2 = problem6_v2(100);
-        println!("Problem 6 solution: {value2} (v2)");
-        let value1 = problem6(100);
-        println!("Problem 6 solution: {value1} (v1)");
+        println!("Problem 6 solution: {} (v2)", problem6_v2(100));
+        println!("Problem 6 solution: {} (v1)", problem6(100));
     }
     else if problem_number == 7 {
-        let value = problem7();
-        println!("Problem 7 solution: {value}");
+        println!("Problem 7 solution: {}", problem7());
     }
     else if problem_number == 8 {
-        let value = problem8();
-        println!("Problem 8 solution: {value}");
+        println!("Problem 8 solution: {}", problem8());
     }
     else if problem_number == 9 {
-        let value = problem9();
-        println!("Problem 9 solution: {value}");
+        println!("Problem 9 solution: {}", problem9());
     }
     else if problem_number == 10 {
-        let value = problem10();
-        println!("Problem 10 solution: {value}");
+        println!("Problem 10 solution: {}", problem10());
     }
     else if problem_number == 11 {
-        let value = problem11();
-        println!("Problem 11 solution: {value}");
+        println!("Problem 11 solution: {}", problem11());
     }
     else if problem_number == 12 {
-        let value = problem12();
-        println!("Problem 12 solution: {value}");
+        println!("Problem 12 solution: {}", problem12());
     }
     else if problem_number == 13 {
-        let value = problem13();
-        println!("Problem 13 solution: {value}");
+        println!("Problem 13 solution: {}", problem13());
     }
     else if problem_number == 14 {
         println!("Problem 14 solution: {}", problem14());
