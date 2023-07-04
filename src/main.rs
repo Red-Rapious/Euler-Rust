@@ -1,4 +1,5 @@
 use std::io;
+use std::env;
 
 use crate::problem1::problem1;
 use crate::problem1::problem1_v2;
@@ -33,14 +34,25 @@ pub mod problem12;
 pub mod problem13;
 
 fn main() {
+    let args: Vec<String> = env::args().collect();
     let mut problem_number = String::new();
 
-    println!("Problem number:");
+    if args.len() == 1 {
+        println!("Problem number:");
 
-    // Read problem number input
-    io::stdin()
-         .read_line(&mut problem_number)
-         .expect("Failed to read line");
+        // Read problem number input
+        io::stdin()
+             .read_line(&mut problem_number)
+             .expect("Failed to read line");
+    }
+    else if args.len() == 2 {
+        problem_number = args[1].clone();
+    }
+    else {
+        println!("Too many arguments. The length of 'args' is {}, whereas it should be 2.", args.len());
+        std::process::exit(0);
+    }
+    
 
     // Convert, if possible, the input to int32
     let problem_number: i32 = problem_number.trim().parse().expect("Please type a number!");

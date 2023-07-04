@@ -6,6 +6,7 @@ This project uses `Cargo`. With `rust` installed on your machine, you can execut
 ```
 cargo run
 ```
+
 The main program then asks for a Problem number to run, which you can enter in the command line:
 ```
 $ cargo run
@@ -14,6 +15,15 @@ $ cargo run
       Running ...
 Problem number:
 1
+```
+
+Alternatively, you can directly pass the problem number as an environment argument:
+```
+$ cargo run 1
+    Compiling ...
+     Finished ...
+      Running ...
+Problem 1 solution: ...
 ```
 
 ## Problems solved
