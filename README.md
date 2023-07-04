@@ -41,6 +41,7 @@ Problem 1 solution: ...
 - [Problem 12:](src/problem12.rs) Highly Divisible Triangular Number
 - [Problem 13:](src/problem13.rs) Large Sum
 - [Problem 14:](src/problem14.rs) Longest Collatz Sequence
+- [Problem 15:](src/problem15.rs) Lattice Paths
 
 
 ## License
