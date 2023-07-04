@@ -18,6 +18,7 @@ use crate::problem10::problem10;
 use crate::problem11::problem11;
 use crate::problem12::problem12;
 use crate::problem13::problem13;
+use crate::problem14::problem14;
 
 pub mod problem1;
 pub mod problem2;
@@ -32,6 +33,7 @@ pub mod problem10;
 pub mod problem11;
 pub mod problem12;
 pub mod problem13;
+pub mod problem14;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -113,6 +115,9 @@ fn main() {
     else if problem_number == 13 {
         let value = problem13();
         println!("Problem 13 solution: {value}");
+    }
+    else if problem_number == 14 {
+        println!("Problem 14 solution: {}", problem14());
     }
     else {
         println!("Incorrect problem number. End of program.");

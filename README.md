@@ -40,6 +40,7 @@ Problem 1 solution: ...
 - [Problem 11:](src/problem11.rs) Largest Product in a Grid
 - [Problem 12:](src/problem12.rs) Highly Divisible Triangular Number
 - [Problem 13:](src/problem13.rs) Large Sum
+- [Problem 14:](src/problem14.rs) Longest Collatz Sequence
 
 
 ## License
