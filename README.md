@@ -45,6 +45,7 @@ Problem 1 solution: ...
 - [Problem 16:](src/problem15.rs) Power Digit Sum
 - [Problem 17:](src/problem17.rs) Number Letter Counts
 - [Problem 18:](src/problem18.rs) Maximum Path Sum I
+- [Problem 19:](src/problem19.rs) Counting Sundays
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
