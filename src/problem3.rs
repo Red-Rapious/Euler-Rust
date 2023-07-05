@@ -20,3 +20,13 @@ pub fn problem3(input: i64) -> i64 {
     }
     max_factor
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem3() {
+        assert_eq!(problem3(600_851_475_143), 6_857);
+    }
+}

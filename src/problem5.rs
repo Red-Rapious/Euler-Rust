@@ -49,3 +49,13 @@ pub fn problem5_v2() -> i32 {
     }
     prod as i32
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem5() {
+        assert_eq!(problem5_v2(), 232_792_560);
+    }
+}

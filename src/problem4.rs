@@ -34,3 +34,13 @@ pub fn problem4() -> i32 {
     }
     max
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem4() {
+        assert_eq!(problem4(), 906_609);
+    }
+}

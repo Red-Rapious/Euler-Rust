@@ -21,3 +21,13 @@ pub fn problem2() -> i32 {
     }
     sum
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem2() {
+        assert_eq!(problem2(), 4_613_732);
+    }
+}

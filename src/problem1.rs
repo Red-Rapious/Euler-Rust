@@ -38,3 +38,18 @@ pub fn problem1_v2() -> i32 {
     }
     sum
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem1() {
+        assert_eq!(problem1(), 2_331_68);
+    }
+
+    #[test]
+    fn test_problem1_v2() {
+        assert_eq!(problem1_v2(), 2_331_68);
+    }
+}
