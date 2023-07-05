@@ -41,3 +41,13 @@ pub fn problem19() -> usize {
     }
     count
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem19() {
+        assert_eq!(problem19(), 171);
+    }
+}

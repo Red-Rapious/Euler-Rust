@@ -24,3 +24,13 @@ pub fn problem20(n: u32) -> u128 {
     }
     s
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem20() {
+        assert_eq!(problem20(100), 648);
+    }
+}

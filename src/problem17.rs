@@ -80,3 +80,13 @@ pub fn problem17() -> i32 {
     }
     s
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem17() {
+        assert_eq!(problem17(), 21_124);
+    }
+}

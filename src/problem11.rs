@@ -49,7 +49,7 @@ pub fn problem11() -> i32 {
 }
 
 fn get_grid() -> [[i32; 20] ; 20] {
-    let file_path = "problem11.txt";
+    let file_path = "src/problem11.txt";
     let contents = fs::read_to_string(file_path)
         .expect("Unable to read file.");
 
@@ -65,4 +65,14 @@ fn get_grid() -> [[i32; 20] ; 20] {
         i += 1;
     }
     array
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem11() {
+        assert_eq!(problem11(), 70_600_674);
+    }
 }

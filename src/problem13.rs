@@ -23,7 +23,7 @@ pub fn problem13() -> u128 {
 }
 
 fn get_numbers(digits_to_keep: u8) -> [u128; 100] {
-    let file_path = "problem13.txt";
+    let file_path = "src/problem13.txt";
     let contents = fs::read_to_string(file_path)
         .expect("Unable to read file.");
     let iterator = contents.split("\n");
@@ -39,4 +39,14 @@ fn get_numbers(digits_to_keep: u8) -> [u128; 100] {
         i += 1;
     }
     numbers
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem13() {
+        assert_eq!(problem13(), 5_537_376_230);
+    }
 }

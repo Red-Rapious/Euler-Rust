@@ -79,9 +79,20 @@ pub fn problem8_v2() -> i32 {
 }
 
 fn get_number() -> Vec<i32> {
-    let file_path = "problem8.txt";
+    let file_path = "src/problem8.txt";
     let contents = fs::read_to_string(file_path)
         .expect("Unable to read file.");
+
     let parsed = contents.replace("\n", "");
     parsed.chars().map(|c| c as i32 - '0' as i32).collect()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem8() {
+        assert_eq!(problem8(), 23_514_624_000);
+    }
 }

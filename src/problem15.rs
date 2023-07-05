@@ -55,3 +55,13 @@ pub fn problem15_enumerate() -> i128 {
         TOTAL
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem15() {
+        assert_eq!(problem15(), 137_846_528_820);
+    }
+}

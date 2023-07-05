@@ -38,3 +38,13 @@ pub fn problem14() -> i64 {
     }
     maxi.1
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem14() {
+        assert_eq!(problem14(), 837_799);
+    }
+}

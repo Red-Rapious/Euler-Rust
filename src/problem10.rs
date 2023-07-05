@@ -24,3 +24,13 @@ pub fn problem10() -> i128 {
     }
     s
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem10() {
+        assert_eq!(problem10(), 142_913_828_922);
+    }
+}

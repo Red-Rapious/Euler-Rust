@@ -30,7 +30,7 @@ pub fn problem18() -> usize {
 }
 
 fn get_triangle() -> Vec<Vec<usize>> {
-    let file_path = "problem18.txt";
+    let file_path = "src/problem18.txt";
     let contents = fs::read_to_string(file_path)
         .expect("Unable to read file.");
 
@@ -45,4 +45,14 @@ fn get_triangle() -> Vec<Vec<usize>> {
         i += 1;
     }
     triangle
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem18() {
+        assert_eq!(problem18(), 1_074);
+    }
 }

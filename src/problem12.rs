@@ -63,3 +63,13 @@ pub fn problem12() -> i32 {
     }
     t
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem12() {
+        assert_eq!(problem12(), 76_576_500);
+    }
+}

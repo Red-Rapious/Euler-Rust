@@ -20,3 +20,13 @@ pub fn problem9() -> i32 {
     // This should never happen according to the problem
     -1
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem9() {
+        assert_eq!(problem9(), 31_875_000);
+    }
+}

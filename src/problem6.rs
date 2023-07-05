@@ -23,3 +23,18 @@ pub fn problem6_v2(n: i64) -> i64 {
     let s2 = n*(n+1)/2;
     s2*s2 - s1
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem6() {
+        assert_eq!(problem6(100), 25_164_150);
+    }
+
+    #[test]
+    fn test_problem6_v2() {
+        assert_eq!(problem6_v2(100), 25_164_150);
+    }
+}

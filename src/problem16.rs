@@ -28,3 +28,13 @@ pub fn problem16() -> u32 {
     }
     s
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_problem16() {
+        assert_eq!(problem16(), 1_366);
+    }
+}
