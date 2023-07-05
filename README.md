@@ -26,6 +26,11 @@ $ cargo run 1
 Problem 1 solution: ...
 ```
 
+Finally, I have configured unit tests for each problem. You can run them with:
+```
+$ cargo test
+```
+
 ## Problems solved
 - [Problem 1:](src/problem1.rs) Multiples of 3 or 5
 - [Problem 2:](src/problem2.rs) Even Fibonacci Numbers
@@ -48,6 +53,7 @@ Problem 1 solution: ...
 - [Problem 19:](src/problem19.rs) Counting Sundays
 - [Problem 20:](src/problem20.rs) Factorial Digit Sum
 - [Problem 21:](src/problem21.rs) Amicable Numbers
+- [Problem 22:](src/problem22.rs) Names Scores
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
