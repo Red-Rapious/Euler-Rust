@@ -42,7 +42,8 @@ Problem 1 solution: ...
 - [Problem 13:](src/problem13.rs) Large Sum
 - [Problem 14:](src/problem14.rs) Longest Collatz Sequence
 - [Problem 15:](src/problem15.rs) Lattice Paths
-- [Problem 15:](src/problem15.rs) Power Digit Sum
+- [Problem 16:](src/problem15.rs) Power Digit Sum
+- [Problem 17:](src/problem17.rs) Number Letter Counts
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
