@@ -30,6 +30,7 @@ use crate::problem22::problem22;
 use crate::problem23::problem23;
 use crate::problem24::problem24;
 use crate::problem24::problem24_v2;
+use crate::problem25::problem25;
 
 pub mod problem1;
 pub mod problem2;
@@ -55,6 +56,7 @@ pub mod problem21;
 pub mod problem22;
 pub mod problem23;
 pub mod problem24;
+pub mod problem25;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -154,6 +156,9 @@ fn main() {
     else if problem_number == 24 {
         println!("Problem 24 solution: {} (v1)", problem24(1_000_000));
         println!("Problem 24 solution: {} (v2: Permutations crate)", problem24_v2(1_000_000));
+    }
+    else if problem_number == 25 {
+        println!("Problem 25 solution: {}", problem25());
     }
     else {
         println!("Incorrect problem number. End of program.");

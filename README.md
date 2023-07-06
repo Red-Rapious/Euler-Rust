@@ -77,6 +77,7 @@ $ cargo test -- --include-ignored
 - [Problem 22:](src/problem22.rs) Names Scores
 - [Problem 23:](src/problem23.rs) Non-Abundant Sums
 - [Problem 24:](src/problem24.rs) Lexicographic Permutations
+- [Problem 25:](src/problem25.rs) 1000-digit Fibonacci Number
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
