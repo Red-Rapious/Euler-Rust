@@ -54,6 +54,7 @@ $ cargo test
 - [Problem 20:](src/problem20.rs) Factorial Digit Sum
 - [Problem 21:](src/problem21.rs) Amicable Numbers
 - [Problem 22:](src/problem22.rs) Names Scores
+- [Problem 23:](src/problem23.rs) Non-Abundant Sums
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
