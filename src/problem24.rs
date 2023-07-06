@@ -57,11 +57,11 @@ mod tests {
 
     #[test]
     fn test_problem24() {
-        assert_eq!(problem24(1_000_000), 2783915460);
+        assert_eq!(problem24(1_000_000), 2_783_915_460);
     }
 
     #[test]
     fn test_problem24_v2() {
-        assert_eq!(problem24_v2(1_000_000), 2783915460);
+        assert_eq!(problem24_v2(1_000_000), 2_783_915_460);
     }
 }
