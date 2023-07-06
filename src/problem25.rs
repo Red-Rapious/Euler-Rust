@@ -27,7 +27,7 @@ pub fn problem25() -> usize {
     let mut i = 2;
 
     while second.to_radix_be(10).len() < 1_000 {
-        let temp = first.clone();
+        let temp = first;
         first = second.clone();
         second = temp.clone() + first.clone();
         i += 1;
