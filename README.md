@@ -2,13 +2,14 @@
 My [Project Euler](https://projecteuler.net/) track in Rust. Every solution is commented, and some problems feature multiple solutions.
 
 ## Compiling and Running
+#### Default `cargo run`
 This project uses `Cargo`. With `rust` installed on your machine, you can execute my code with:
-```
-cargo run
+```console
+$ cargo run
 ```
 
 The main program then asks for a Problem number to run, which you can enter in the command line:
-```
+```console
 $ cargo run
     Compiling ...
      Finished ...
@@ -17,8 +18,9 @@ Problem number:
 1
 ```
 
+#### Environment Argument
 Alternatively, you can directly pass the problem number as an environment argument:
-```
+```console
 $ cargo run 1
     Compiling ...
      Finished ...
@@ -26,9 +28,28 @@ $ cargo run 1
 Problem 1 solution: ...
 ```
 
+#### Unit Tests
 Finally, I have configured unit tests for each problem. You can run them with:
-```
+```console
 $ cargo test
+```
+or to run a specific test:
+```console
+$ cargo test problem1
+```
+
+Some problems have multiple solutions, and the unit tests are configured to run all of them.
+```console
+$ cargo test problem1_v2
+```
+
+Some solutions, such as the one for [Problem 23](src/problem23.rs), take a few more seconds to run than the others. Corresponding tests are ignored by default, but you can run them with:
+```console
+$ cargo test -- --ignored
+```
+or to run all tests, ignored or not:
+```console
+$ cargo test -- --include-ignored
 ```
 
 ## Problems solved
