@@ -2,7 +2,7 @@
 My [Project Euler](https://projecteuler.net/) track in Rust. Every solution is commented, and some problems feature multiple solutions.
 
 ## Compiling and Running
-#### Default `cargo run`
+### Default `cargo run`
 This project uses `Cargo`. With `rust` installed on your machine, you can execute my code with:
 ```console
 $ cargo run
@@ -18,7 +18,7 @@ Problem number:
 1
 ```
 
-#### Environment Argument
+### Environment Argument
 Alternatively, you can directly pass the problem number as an environment argument:
 ```console
 $ cargo run 1
@@ -28,7 +28,7 @@ $ cargo run 1
 Problem 1 solution: ...
 ```
 
-#### Unit Tests
+### Unit Tests
 Finally, I have configured unit tests for each problem. You can run them with:
 ```console
 $ cargo test
