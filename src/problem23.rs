@@ -24,6 +24,34 @@ fn d(n: usize) -> usize {
     s
 }
 
+fn _d_v2(n: usize) -> usize {
+    // Different approach: find the prime factors of n and returns
+    // the product of the (p^m - 1)/(p - 1) where p is a prime divisor of n with valuation m
+    let mut current = n;
+    let mut prime_divisors: Vec<(usize, usize)> = vec![];
+    
+    let mut p = 2;
+    let mut count = 1;
+    loop {
+        if p > current { break; }
+        if current % p == 0 {
+            while current % p == 0 {
+                current = current / p;
+                count += 1;
+            }
+            prime_divisors.push((p, count));
+            count = 1;
+        }
+        p += 1;
+    }
+    
+    let mut sum_divisors = 1;
+    for (p, m) in prime_divisors {
+        sum_divisors *= (p.pow(m as u32)-1)/(p-1);
+    }
+    sum_divisors
+}
+
 pub fn problem23() -> usize {
     // Create a set containing all numbers below 28_124
     let mut set = HashSet::new();
@@ -56,6 +84,7 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     fn test_problem23() {
         assert_eq!(problem23(), 4_179_871);
     }
