@@ -81,6 +81,7 @@ $ cargo test -- --include-ignored
 - [Problem 27:](src/problem27.rs) Quadratic Primes
 - [Problem 28:](src/problem28.rs) Number Spiral Diagonals
 - [Problem 29:](src/problem29.rs) Distinct Powers
+- [Problem 30:](src/problem30.rs) Digit Fifth Powers
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
