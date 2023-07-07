@@ -80,6 +80,7 @@ $ cargo test -- --include-ignored
 - [Problem 25:](src/problem25.rs) 1000-digit Fibonacci Number
 
 - [Problem 27:](src/problem27.rs) Quadratic Primes
+- [Problem 28:](src/problem28.rs) Number Spiral Diagonals
 
 ## License
 This work is licensed under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Original content is the property of the [Project Euler website](https://projecteuler.net/copyright) and also licensed under **CC-BY-NC-SA 4.0**.
