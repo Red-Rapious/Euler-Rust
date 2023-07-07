@@ -65,7 +65,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem27() {
+    fn test_problem28() {
         assert_eq!(problem28(5), 101);
         assert_eq!(problem28(1_001), 669_171_001);
     }

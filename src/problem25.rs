@@ -41,7 +41,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem24() {
+    fn test_problem25() {
         assert_eq!(problem25(), 4_782);
     }
 }
