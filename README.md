@@ -78,7 +78,6 @@ $ cargo test -- --include-ignored
 - [Problem 23:](src/problem23.rs) Non-Abundant Sums
 - [Problem 24:](src/problem24.rs) Lexicographic Permutations
 - [Problem 25:](src/problem25.rs) 1000-digit Fibonacci Number
-
 - [Problem 27:](src/problem27.rs) Quadratic Primes
 - [Problem 28:](src/problem28.rs) Number Spiral Diagonals
 
