@@ -3,7 +3,6 @@ use std::env;
 
 use crate::problem1::problem1;
 use crate::problem1::problem1_v2;
-
 use crate::problem2::problem2;
 use crate::problem3::problem3;
 use crate::problem4::problem4;
@@ -31,7 +30,7 @@ use crate::problem23::problem23;
 use crate::problem24::problem24;
 use crate::problem24::problem24_v2;
 use crate::problem25::problem25;
-//use crate::problem26::problem26;
+use crate::problem26::problem26;
 use crate::problem27::problem27;
 use crate::problem28::problem28;
 use crate::problem29::problem29;
@@ -170,9 +169,9 @@ fn main() {
     else if problem_number == 25 {
         println!("Problem 25 solution: {}", problem25());
     }
-    /*else if problem_number == 26 {
+    else if problem_number == 26 {
         println!("Problem 26 solution: {}", problem26());
-    }*/
+    }
     else if problem_number == 27 {
         println!("Problem 27 solution: {}", problem27());
     }
